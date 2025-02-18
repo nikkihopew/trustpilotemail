@@ -1,0 +1,415 @@
+<!--
+    templateType: email
+    isAvailableForNewContent: true
+-->
+<!DOCTYPE html>
+<html>
+<head><meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<title>Your opinion matters</title>
+	<style media="all" type="text/css">#outlook a {
+  padding: 0; }
+
+body {
+  width: 100% !important; }
+
+body {
+  -webkit-text-size-adjust: none; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none; }
+
+table td {
+  border-collapse: collapse; }
+
+#backgroundTable {
+  height: 100% !important;
+  margin: 0;
+  width: 100% !important; }
+
+h1,
+.h1 {
+  color: #000;
+  display: block;
+  font-family: Arial;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  margin-left: 0;
+  text-align: left; }
+
+h2,
+.h2 {
+  color: #000;
+  display: block;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  margin-left: 0;
+  text-align: left; }
+
+h3,
+.h3 {
+  color: #000;
+  display: block;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  margin-left: 0;
+  text-align: left; }
+
+h4,
+.h4 {
+  color: #000;
+  display: block;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  margin-left: 0;
+  text-align: left; }
+
+#templateContainer,
+#templateContainerTd {
+  background-color: #FFF; }
+
+tbody div {
+  color: #000;
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: left; }
+
+tbody div a:link,
+tbody div a:visited,
+tbody div a .yshortcuts {
+  color: #336699;
+  font-weight: normal;
+  text-decoration: underline; }
+
+tbody img {
+  display: inline;
+  height: auto; }
+
+@media only screen and (max-device-width: 480px) {
+  #backgroundTableTd {
+    padding: 5px !important; }
+  #templateContainerTd {
+    padding: 15px !important; }
+  h1 {
+    font-size: 28px !important; }
+  h2 {
+    font-size: 24px !important; }
+  h3 {
+    font-size: 20px !important; }
+  h4 {
+    font-size: 16px !important; }
+  tbody div {
+    font-size: 16px !important; }
+  table[class="table"],
+  td[class="cell"] {
+    width: 300px !important; } }
+
+.unsubscribe-link {
+  color: #336699;
+  text-decoration: underline; }
+	</style>
+	<style media="all" type="text/css">#templateContainer {
+  width: 100%; }
+
+body,
+#backgroundTable {
+  background-color: #f7f7f7; }
+
+.trustpilot-logo {
+  padding-bottom: 1rem; }
+  .trustpilot-logo img {
+    height: 10px; }
+
+.stars {
+  width: 100%;
+  margin-top: 2em; }
+
+a {
+  color: #9D0C19; }
+
+.stars .tp-link {
+  font-weight: normal;
+  line-height: 1em;
+  text-decoration: underline;
+  font-size: 18px;
+  color: #336699;
+  color: #000032;
+  color: #0c59f2; }
+
+.stars a {
+  color: inherit !important;
+  color: black; }
+
+.stars .star-rating {
+  text-decoration: none; }
+
+.stars .star-rating .star-rating__img {
+  height: 36px;
+  vertical-align: middle; }
+
+.stars .radio-btn {
+  font-size: 32px;
+  color: #ccc;
+  vertical-align: middle;
+  margin-right: 0.5rem; }
+
+.stars .rating-word {
+  display: inline-block;
+  line-height: 36px;
+  vertical-align: middle;
+  height: 36px; }
+
+.star-rating__table {
+  margin: .5em 0; }
+
+.star-rating__table td {
+  color: inherit;
+  font-size: 14px; }
+
+.star-rating__table__rating-word {
+  padding-left: .5em; }
+
+.unsubscribe-section {
+  color: #999;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin-top: .5rem; }
+
+.unsubscribe-link {
+  color: #336699;
+  color: inherit; }
+
+.section__legalnotice {
+  color: #999;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 600px;
+  border-spacing: 0; }
+
+.section__legalnotice__biz-name-address {
+  vertical-align: top;
+  padding-bottom: 8px; }
+
+.section__legalnotice__biz-details {
+  padding-bottom: 8px; }
+
+.section__legalnotice__biz-details__wrap {
+  display: inline-block;
+  word-wrap: none;
+  text-align: left; }
+
+hr {
+  color: #ddd;
+  background: #ddd;
+  border: none;
+  height: 1px; }
+
+@media only screen and (max-width: 480px) {
+  .unsubscribe-section {
+    font-size: 12px !important; } }
+
+@media only screen and (min-width: 481px) {
+  #templateContainer {
+    max-width: 600px; }
+  .trustpilot-logo img {
+    height: auto !important;
+    max-width: 120px !important; }
+  .stars {
+    margin-bottom: 1rem; }
+  .stars .tp-link {
+    font-size: inherit !important; } }
+
+/**
+ * Helper class
+ */
+.align-center {
+  text-align: center; }
+
+/**
+ * Media queries
+ */
+@media only screen and (max-width: 360px) {
+  .rating-word {
+    display: none; } }
+	</style>
+	<style media="all" type="text/css">/**
+ * Targets Gmail and iOS Mail when they add links around contact info
+ **/
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important; }
+
+u + #body a {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit; }
+
+.ii a[href] {
+  color: inherit;
+  text-decoration: underline; }
+
+/**
+ * End of Gmail and iOS Mail targeting
+ */
+	</style>
+	<style type="text/css">.section__legalnotice__two-split {
+			min-width: 200% !important;
+		}
+	</style>
+</head>
+<body id="body" style="width: 100% !important; -webkit-text-size-adjust: none; margin: 0; padding: 0; background-color: #F7F7F7;"><!-- Preview text (text which appears right after subject in certain email clients) -->
+<div id="preview_text" style="display:none">{% text &quot;preview_text&quot; label=&quot;Preview Text <span class="help-text">This will be used as the preview text that displays in some email clients</span>&quot;, value=&quot;&quot;, no_wrapper=True %}</div>
+<!-- Insert body here -->
+
+<table border="0" cellpadding="0" cellspacing="0" id="backgroundTable" style="background-color:#f7f7f7; height:100% !important; margin:0; width:100% !important">
+	<tbody>
+		<tr>
+			<td style="border-collapse:collapse; padding-top: 10px;"><!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tr>
+            <td align="center" valign="top" width="600">
+            <![endif]-->
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="table" id="templateContainer" style="background-color:#ffffff; width:100%">
+				<tbody>
+					<tr>
+						<td style="border-collapse:collapse;">
+						<table border="0" cellpadding="0" cellspacing="0" class="table" id="templateBody">
+							<tbody>
+								<tr>
+                  <td style="background-color:#000000; border-collapse:collapse; width:100%">
+                    <img alt="Male Excel Logo" dir="ltr" src="https://7324260.fs1.hubspotusercontent-na1.net/hubfs/7324260/fem%20excel%20rev.png" style="border-style:none; border-width:0px; display:block; height:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; margin-top:auto; padding-bottom:20px; padding-top:20px; width:200px">
+                  </td>
+                </tr>
+                <tr>
+                  <td height="8px" style="background-color:#ffffff; border-collapse:collapse; font-size:0px; height:8px; width:100%">
+                    <p style="font-size:0px !important;">&nbsp;</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="background-color:#5ac7c2; border-collapse:collapse; width:100%">
+                    <img alt="Trust Pilot Logo" dir="ltr" src="https://7324260.fs1.hubspotusercontent-na1.net/hubfs/7324260/Trustpilot%20Logo.png" style="border-style:none; border-width:0px; display:block; height:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; margin-top:auto; padding-bottom:8px; padding-top:8px; width:120px">
+                  </td>
+                </tr>
+                <tr>
+                  <td height="8px" style="background-color:#ffffff; border-collapse:collapse; font-size:0px; height:8px; width:100%">
+                    <p style="font-size:0px !important;">&nbsp;</p>
+                  </td>
+                </tr>
+                <tr>
+									<td style="background-color:#000000; border-collapse:collapse; padding-bottom:10px; padding-top:10px; width:100%">
+									<table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+										<tbody>
+											<tr>
+												<td style="background-color:#000000; border-collapse:collapse; width:100%">
+												<p style="color:#ffffff; display:block; font-family:Arial,sans-serif; font-size:26px; font-weight:700; line-height:125%; margin-bottom:5px; margin-left:0; margin-right:0; margin-top:10px; text-align:center">Thank you</p>
+												</td>
+											</tr>
+											<tr>
+												<td style="background-color:#000000; border-collapse:collapse; width:100%">
+												<p style="color:#ffffff; display:block; font-family:Arial,sans-serif; font-size:22px; font-weight:400; line-height:125%; margin-bottom:10px; margin-left:0; margin-right:0; margin-top:0; text-align:center">for attending your recent consultation</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+                <tr>
+                  <td style="border-collapse:collapse; color:#000000; font-family:Arial,sans-serif; font-size:15px; line-height:150%; padding-left:20px; text-align:left">
+                    <p><br />
+                      <strong>Dear [Name], </strong><br />
+                      <br />
+                      We&rsquo;ve partnered with the online review community, Trustpilot, to collect your thoughts. We hope you had a great experience, please let us know:</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="vertical-align:center; width:100%;" width="100%">
+                    <div class="stars" style="color:#000000; font-family:Arial,sans-serif; font-size:15px; line-height:150%; margin-top:2em; text-align:center; width:100%;">
+                      <p style="color:#000000; display:block; margin: auto; font-family:Arial,sans-serif; font-size:26px; font-weight:bold; line-height:100%; text-align:center">[Stars]</p>
+                    </div>
+                  </td>
+                </tr>
+								<tr>
+									<td align="center" style="vertical-align:center; width:100%; padding-top: 20px;" width="100%">
+									<table align="center" cellpadding="0" cellspacing="0" style="text-align:center">
+										<tbody>
+											<tr>
+												<td style="background-color:#01ADAB; border-radius:8px; border-width:0px; display:block; margin:auto"><a style="padding: 12px 25px; border: 0px; text-decoration: none; color: white; display: inline-block;"> <strong style="color:#ffffff; font-family:Arial,sans-serif; font-size:18px; font-weight:bold"> Write a Review on Trustpilot </strong> </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="border-collapse:collapse; color:#000000; font-family:Arial,sans-serif; font-size:15px; line-height:150%; padding-left:20px; text-align:left"><br />
+									<br />
+									Warm regards,<br />
+									<strong>The Fem Excel Team </strong><br />
+									<br />
+									&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" border="0" class="footer" style="max-width:600px; padding-left:20px; padding-right:20px; text-align:center; width:100%">
+				<tbody>
+					<tr>
+            <td style="text-align:center">
+              <br /> <br />
+              <p style="color:#aaaaaa; font-family:'Arial',sans-serif; font-size:11px; font-weight:400; line-height:120%; margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; mso-line-height-alt:12px; text-align:center">Excel Medical 809 Westmere Ave. Charlotte, North Carolina</p>
+						&nbsp;
+              <p style="color:#4d4d4d; font-family:'Inter','Arial',sans-serif; font-size:10px; font-weight:400; line-height:120%; margin-bottom:0; margin-left:0; margin-right:0; margin-top:0; mso-line-height-alt:12px; text-align:center">The information provided in this email is for informational purposes and not a substitute for professional medical advice, diagnosis, or treatment. If you have questions or concerns about your health, please talk to your doctor.</p>
+              <br />
+              <br />
+            </td>
+					</tr>
+				</tbody>
+			</table>
+			<!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]--></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
